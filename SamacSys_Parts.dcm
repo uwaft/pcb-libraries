@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP2551T-I_SN
+D CAN Interface IC Hi Spd CAN Transceiv
+F http://uk.rs-online.com/web/p/products/8237897P
+$ENDCMP
+#
+$CMP SN65HVD1040DR
+D Industrial CAN Transceiver with Ultra Low Power Standby Mode with Bus Wake-up
+F http://www.ti.com/lit/gpn/sn65hvd1040
+$ENDCMP
+#
+$CMP LM317AHVT
+D IC, Fairchild, LM317AHVT Fairchild Semiconductor LM317AHVT, LDO Voltage Regulator, Adjustable 1.5A, 1.2  57 V, 3-Pin TO-220
+K
+F http://uk.rs-online.com/web/p/products/8062790
+$ENDCMP
+#
+#End Doc Library
