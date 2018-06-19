@@ -190,4 +190,70 @@ K
 F http://www.vishay.com/docs/20035/dcrcwe3.pdf
 $ENDCMP
 #
+$CMP MCP25612FD-E_SL
+D CAN Transceiver 2-Ch <8Mbps 5V SIOC-14 Microchip MCP25612FD-E/SL, CAN Transceiver 8MBps 2-channel CAN 2.0, CAN FD, 14-Pin SOIC
+K
+F http://uk.rs-online.com/web/p/products/1459107
+$ENDCMP
+#
+$CMP MCP2561FD-E_SN
+D Microchip MCP2561FD-E/SN, CAN Transceiver 2 Mbit/s, 5 Mbit/s, 8 Mbit/s 1-channel ISO 11898-2, ISO 11898-5, 8-Pin SOIC
+K
+F http://uk.rs-online.com/web/p/products/1652007
+$ENDCMP
+#
+$CMP MCP2562-E_P
+D CAN Transceiver 1Mbps 5V 125degC PDIP8 Microchip MCP2562-E/P, CAN Transceiver 1-channel IEC 61000-4-2, 8-Pin PDIP
+K
+F https://componentsearchengine.com/Datasheets/3/MCP2562-E_P.pdf
+$ENDCMP
+#
+$CMP MCP2562FD-E_SN
+D 8Mbps CAN Flex. Data Transceiver SOIC8 Microchip MCP2562FD-E/SN, CAN Transceiver 2 Mbit/s, 5 Mbit/s, 8 Mbit/s 1-channel ISO 11898-2, ISO 11898-5, 8-Pin SOIC
+K
+F http://uk.rs-online.com/web/p/products/1652008
+$ENDCMP
+#
+$CMP MCP25625-E_SS
+D CAN Controller with Transceiver SSOP28 Microchip MCP25625-E/SS, CAN Controller 1MBps CAN 2.0, 28-Pin SSOP
+K
+F http://uk.rs-online.com/web/p/products/1651935
+$ENDCMP
+#
+$CMP MCP2562T-H_SN
+D CAN Interface IC
+K
+F https://componentsearchengine.com/Datasheets/1/MCP2562T-H_SN.pdf
+$ENDCMP
+#
+$CMP MCP2551-E_SN
+D CAN Transceiver 1Mbit/s ISO 11898 Sleep, Standby-Mode 8pins SOIC
+K
+F http://uk.rs-online.com/web/p/products/7707767P
+$ENDCMP
+#
+$CMP MCP2551-I_SN
+D High Speed CAN Transceiver,MCP2551-I/SN
+K
+F http://uk.rs-online.com/web/p/products/2509530197
+$ENDCMP
+#
+$CMP MCP2551-I_P
+D High Speed CAN Transceiver,MCP2551-I/P Microchip MCP2551-I/P, CAN Transceiver 1-channel ISO 11898, 8-Pin PDIP
+K
+F http://uk.rs-online.com/web/p/products/2509530181
+$ENDCMP
+#
+$CMP LTC2877HDD#PBF
+D LINEAR TECHNOLOGY - LTC2877HDD#PBF - PROFIBUS RS485 TX RX, 20MBPS, DFN-10
+K
+F http://cds.linear.com/docs/en/datasheet/28767fa.pdf
+$ENDCMP
+#
+$CMP ADM3065EARMZ
+D RS-422/RS-485 Interface IC 3->5V 50Mbps RS-485 RS-422 Transceiver
+K
+F http://uk.rs-online.com/web/p/products/1464542
+$ENDCMP
+#
 #End Doc Library
