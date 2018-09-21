@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting verticaltext="up"/>
+ </settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+ <layers>
+  <layer visible="yes" name="Top" fill="1" number="1" color="4" active="yes"/>
+  <layer visible="yes" name="Bottom" fill="1" number="16" color="1" active="yes"/>
+  <layer visible="yes" name="Pads" fill="1" number="17" color="2" active="yes"/>
+  <layer visible="yes" name="Vias" fill="1" number="18" color="2" active="yes"/>
+  <layer visible="yes" name="Unrouted" fill="1" number="19" color="6" active="yes"/>
+  <layer visible="yes" name="Dimension" fill="1" number="20" color="24" active="yes"/>
+  <layer visible="yes" name="tPlace" fill="1" number="21" color="7" active="yes"/>
+  <layer visible="yes" name="bPlace" fill="1" number="22" color="7" active="yes"/>
+  <layer visible="yes" name="tOrigins" fill="1" number="23" color="15" active="yes"/>
+  <layer visible="yes" name="bOrigins" fill="1" number="24" color="15" active="yes"/>
+  <layer visible="yes" name="tNames" fill="1" number="25" color="7" active="yes"/>
+  <layer visible="yes" name="bNames" fill="1" number="26" color="7" active="yes"/>
+  <layer visible="yes" name="tValues" fill="1" number="27" color="7" active="yes"/>
+  <layer visible="yes" name="bValues" fill="1" number="28" color="7" active="yes"/>
+  <layer visible="no" name="tStop" fill="3" number="29" color="7" active="yes"/>
+  <layer visible="no" name="bStop" fill="6" number="30" color="7" active="yes"/>
+  <layer visible="no" name="tCream" fill="4" number="31" color="7" active="yes"/>
+  <layer visible="no" name="bCream" fill="5" number="32" color="7" active="yes"/>
+  <layer visible="no" name="tFinish" fill="3" number="33" color="6" active="yes"/>
+  <layer visible="no" name="bFinish" fill="6" number="34" color="6" active="yes"/>
+  <layer visible="no" name="tGlue" fill="4" number="35" color="7" active="yes"/>
+  <layer visible="no" name="bGlue" fill="5" number="36" color="7" active="yes"/>
+  <layer visible="no" name="tTest" fill="1" number="37" color="7" active="yes"/>
+  <layer visible="no" name="bTest" fill="1" number="38" color="7" active="yes"/>
+  <layer visible="yes" name="tKeepout" fill="11" number="39" color="4" active="yes"/>
+  <layer visible="yes" name="bKeepout" fill="11" number="40" color="1" active="yes"/>
+  <layer visible="yes" name="tRestrict" fill="10" number="41" color="4" active="yes"/>
+  <layer visible="yes" name="bRestrict" fill="10" number="42" color="1" active="yes"/>
+  <layer visible="yes" name="vRestrict" fill="10" number="43" color="2" active="yes"/>
+  <layer visible="no" name="Drills" fill="1" number="44" color="7" active="yes"/>
+  <layer visible="no" name="Holes" fill="1" number="45" color="7" active="yes"/>
+  <layer visible="no" name="Milling" fill="1" number="46" color="3" active="yes"/>
+  <layer visible="no" name="Measures" fill="1" number="47" color="7" active="yes"/>
+  <layer visible="yes" name="Document" fill="1" number="48" color="7" active="yes"/>
+  <layer visible="yes" name="Reference" fill="1" number="49" color="7" active="yes"/>
+  <layer visible="yes" name="tDocu" fill="1" number="51" color="7" active="yes"/>
+  <layer visible="yes" name="bDocu" fill="1" number="52" color="7" active="yes"/>
+  <layer visible="yes" name="SimResults" fill="1" number="88" color="9" active="yes"/>
+  <layer visible="yes" name="SimProbes" fill="1" number="89" color="9" active="yes"/>
+  <layer visible="yes" name="Modules" fill="1" number="90" color="5" active="yes"/>
+  <layer visible="yes" name="Nets" fill="1" number="91" color="2" active="yes"/>
+  <layer visible="yes" name="Busses" fill="1" number="92" color="1" active="yes"/>
+  <layer visible="no" name="Pins" fill="1" number="93" color="2" active="yes"/>
+  <layer visible="yes" name="Symbols" fill="1" number="94" color="4" active="yes"/>
+  <layer visible="yes" name="Names" fill="1" number="95" color="7" active="yes"/>
+  <layer visible="yes" name="Values" fill="1" number="96" color="7" active="yes"/>
+  <layer visible="yes" name="Info" fill="1" number="97" color="7" active="yes"/>
+  <layer visible="yes" name="Guide" fill="1" number="98" color="6" active="yes"/>
+ </layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="SOIC127P600X175-8N">
+  <description>&lt;b>Narrow 3.90mm (SN) [SOIC]&lt;/b>&lt;br>&#xd;
+</description>
+  <smd layer="1" name="1" dy="0.65" dx="1.5" y="1.905" rot="R0" x="-2.7"/>
+  <smd layer="1" name="2" dy="0.65" dx="1.5" y="0.635" rot="R0" x="-2.7"/>
+  <smd layer="1" name="3" dy="0.65" dx="1.5" y="-0.635" rot="R0" x="-2.7"/>
+  <smd layer="1" name="4" dy="0.65" dx="1.5" y="-1.905" rot="R0" x="-2.7"/>
+  <smd layer="1" name="5" dy="0.65" dx="1.5" y="-1.905" rot="R0" x="2.7"/>
+  <smd layer="1" name="6" dy="0.65" dx="1.5" y="-0.635" rot="R0" x="2.7"/>
+  <smd layer="1" name="7" dy="0.65" dx="1.5" y="0.635" rot="R0" x="2.7"/>
+  <smd layer="1" name="8" dy="0.65" dx="1.5" y="1.905" rot="R0" x="2.7"/>
+  <text layer="25" align="center" size="1.27" y="0" rot="R0" x="0">>NAME</text>
+  <text layer="27" align="center" size="1.27" y="0" rot="R0" x="0">>VALUE</text>
+  <wire x2="3.7" width="0.05" layer="51" y2="2.7" x1="-3.7" y1="2.7"/>
+  <wire x2="3.7" width="0.05" layer="51" y2="-2.7" x1="3.7" y1="2.7"/>
+  <wire x2="-3.7" width="0.05" layer="51" y2="-2.7" x1="3.7" y1="-2.7"/>
+  <wire x2="-3.7" width="0.05" layer="51" y2="2.7" x1="-3.7" y1="-2.7"/>
+  <wire x2="1.95" width="0.1" layer="51" y2="2.45" x1="-1.95" y1="2.45"/>
+  <wire x2="1.95" width="0.1" layer="51" y2="-2.45" x1="1.95" y1="2.45"/>
+  <wire x2="-1.95" width="0.1" layer="51" y2="-2.45" x1="1.95" y1="-2.45"/>
+  <wire x2="-1.95" width="0.1" layer="51" y2="2.45" x1="-1.95" y1="-2.45"/>
+  <wire x2="-0.68" width="0.1" layer="51" y2="2.45" x1="-1.95" y1="1.18"/>
+  <wire x2="1.6" width="0.2" layer="21" y2="2.45" x1="-1.6" y1="2.45"/>
+  <wire x2="1.6" width="0.2" layer="21" y2="-2.45" x1="1.6" y1="2.45"/>
+  <wire x2="-1.6" width="0.2" layer="21" y2="-2.45" x1="1.6" y1="-2.45"/>
+  <wire x2="-1.6" width="0.2" layer="21" y2="2.45" x1="-1.6" y1="-2.45"/>
+  <wire x2="-1.95" width="0.2" layer="21" y2="2.58" x1="-3.45" y1="2.58"/>
+ </package>
+ <package name="DIP794W56P254L945H432Q8N">
+  <description>&lt;b>8-Lead PDIP 300mm&lt;/b>&lt;br>&#xd;
+</description>
+  <pad diameter="1.16" shape="square" name="1" y="3.81" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="2" y="1.27" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="3" y="-1.27" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="4" y="-3.81" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="5" y="-3.81" drill="0.76" x="3.97"/>
+  <pad diameter="1.16" name="6" y="-1.27" drill="0.76" x="3.97"/>
+  <pad diameter="1.16" name="7" y="1.27" drill="0.76" x="3.97"/>
+  <pad diameter="1.16" name="8" y="3.81" drill="0.76" x="3.97"/>
+  <text layer="25" align="center" size="1.27" y="0" rot="R0" x="0">>NAME</text>
+  <text layer="27" align="center" size="1.27" y="0" rot="R0" x="0">>VALUE</text>
+  <wire x2="4.96" width="0.05" layer="51" y2="5.13" x1="-4.96" y1="5.13"/>
+  <wire x2="4.96" width="0.05" layer="51" y2="-5.13" x1="4.96" y1="5.13"/>
+  <wire x2="-4.96" width="0.05" layer="51" y2="-5.13" x1="4.96" y1="-5.13"/>
+  <wire x2="-4.96" width="0.05" layer="51" y2="5.13" x1="-4.96" y1="-5.13"/>
+  <wire x2="3.3" width="0.1" layer="51" y2="4.88" x1="-3.3" y1="4.88"/>
+  <wire x2="3.3" width="0.1" layer="51" y2="-4.88" x1="3.3" y1="4.88"/>
+  <wire x2="-3.3" width="0.1" layer="51" y2="-4.88" x1="3.3" y1="-4.88"/>
+  <wire x2="-3.3" width="0.1" layer="51" y2="4.88" x1="-3.3" y1="-4.88"/>
+  <wire x2="-2.03" width="0.1" layer="51" y2="4.88" x1="-3.3" y1="3.61"/>
+  <wire x2="3.3" width="0.2" layer="21" y2="4.88" x1="-4.55" y1="4.88"/>
+  <wire x2="3.3" width="0.2" layer="21" y2="-4.88" x1="-3.3" y1="-4.88"/>
+ </package>
+ <package name="TO254P482X997X2018-3P">
+  <description>&lt;b>TO-220 CASE221AB&lt;/b>&lt;br>&#xd;
+</description>
+  <pad diameter="1.935" shape="square" name="1" y="0" drill="1.29" x="0"/>
+  <pad diameter="1.935" name="2" y="0" drill="1.29" x="2.54"/>
+  <pad diameter="1.935" name="3" y="0" drill="1.29" x="5.08"/>
+  <text layer="25" align="center" size="1.27" y="0" rot="R0" x="0">>NAME</text>
+  <text layer="27" align="center" size="1.27" y="0" rot="R0" x="0">>VALUE</text>
+  <wire x2="7.93" width="0.05" layer="51" y2="3.36" x1="-2.85" y1="3.36"/>
+  <wire x2="7.93" width="0.05" layer="51" y2="-1.96" x1="7.93" y1="3.36"/>
+  <wire x2="-2.85" width="0.05" layer="51" y2="-1.96" x1="7.93" y1="-1.96"/>
+  <wire x2="-2.85" width="0.05" layer="51" y2="3.36" x1="-2.85" y1="-1.96"/>
+  <wire x2="7.68" width="0.1" layer="51" y2="3.11" x1="-2.6" y1="3.11"/>
+  <wire x2="7.68" width="0.1" layer="51" y2="-1.71" x1="7.68" y1="3.11"/>
+  <wire x2="-2.6" width="0.1" layer="51" y2="-1.71" x1="7.68" y1="-1.71"/>
+  <wire x2="-2.6" width="0.1" layer="51" y2="3.11" x1="-2.6" y1="-1.71"/>
+  <wire x2="-1.33" width="0.1" layer="51" y2="3.11" x1="-2.6" y1="1.84"/>
+  <wire x2="7.68" width="0.2" layer="21" y2="3.11" x1="7.68" y1="-1.71"/>
+  <wire x2="-2.6" width="0.2" layer="21" y2="3.11" x1="7.68" y1="3.11"/>
+  <wire x2="-2.6" width="0.2" layer="21" y2="0" x1="-2.6" y1="3.11"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="MCP2551-E_SN">
+  <wire x2="22.86" width="0.254" layer="94" y2="2.54" x1="5.08" y1="2.54"/>
+  <wire x2="22.86" width="0.254" layer="94" y2="2.54" x1="22.86" y1="-10.16"/>
+  <wire x2="5.08" width="0.254" layer="94" y2="-10.16" x1="22.86" y1="-10.16"/>
+  <wire x2="5.08" width="0.254" layer="94" y2="-10.16" x1="5.08" y1="2.54"/>
+  <text layer="95" align="center-left" size="1.778" y="7.62" x="24.13">>NAME</text>
+  <text layer="96" align="center-left" size="1.778" y="5.08" x="24.13">>VALUE</text>
+  <pin length="middle" name="TXD" y="0" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="VSS" y="-2.54" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="VDD" y="-5.08" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="RXD" y="-7.62" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="RS" y="0" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANH" y="-2.54" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANL" y="-5.08" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="VREF" y="-7.62" rot="R180" direction="in" x="27.94"/>
+ </symbol>
+ <symbol name="MCP2551-I_P">
+  <wire x2="22.86" width="0.254" layer="94" y2="2.54" x1="5.08" y1="2.54"/>
+  <wire x2="22.86" width="0.254" layer="94" y2="2.54" x1="22.86" y1="-10.16"/>
+  <wire x2="5.08" width="0.254" layer="94" y2="-10.16" x1="22.86" y1="-10.16"/>
+  <wire x2="5.08" width="0.254" layer="94" y2="-10.16" x1="5.08" y1="2.54"/>
+  <text layer="95" align="center-left" size="1.778" y="7.62" x="24.13">>NAME</text>
+  <text layer="96" align="center-left" size="1.778" y="5.08" x="24.13">>VALUE</text>
+  <pin length="middle" name="TXD" y="0" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="VSS" y="-2.54" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="VDD" y="-5.08" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="RXD" y="-7.62" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="RS" y="0" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANH" y="-2.54" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANL" y="-5.08" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="VREF" y="-7.62" rot="R180" direction="in" x="27.94"/>
+ </symbol>
+ <symbol name="LM317TG">
+  <wire x2="22.86" width="0.254" layer="94" y2="2.54" x1="5.08" y1="2.54"/>
+  <wire x2="22.86" width="0.254" layer="94" y2="2.54" x1="22.86" y1="-5.08"/>
+  <wire x2="5.08" width="0.254" layer="94" y2="-5.08" x1="22.86" y1="-5.08"/>
+  <wire x2="5.08" width="0.254" layer="94" y2="-5.08" x1="5.08" y1="2.54"/>
+  <text layer="95" align="center-left" size="1.778" y="7.62" x="24.13">>NAME</text>
+  <text layer="96" align="center-left" size="1.778" y="5.08" x="24.13">>VALUE</text>
+  <pin length="middle" name="ADJ" y="0" rot="R0" x="0" direction="io"/>
+  <pin length="middle" name="VOUT" y="-2.54" rot="R0" x="0" direction="out"/>
+  <pin length="middle" name="VIN" y="0" rot="R180" x="27.94" direction="in"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset name="MCP2551-E_SN" prefix="IC">
+  <description>&lt;b>CAN Transceiver 1Mbit/s ISO 11898 Sleep, Standby-Mode 8pins SOIC&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/1169/0900766b811693da.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate symbol="MCP2551-E_SN" name="G$1" y="0" x="0"/>
+  </gates>
+  <devices>
+   <device package="SOIC127P600X175-8N" name="">
+    <connects>
+     <connect pad="1" gate="G$1" pin="TXD"/>
+     <connect pad="2" gate="G$1" pin="VSS"/>
+     <connect pad="3" gate="G$1" pin="VDD"/>
+     <connect pad="4" gate="G$1" pin="RXD"/>
+     <connect pad="5" gate="G$1" pin="VREF"/>
+     <connect pad="6" gate="G$1" pin="CANL"/>
+     <connect pad="7" gate="G$1" pin="CANH"/>
+     <connect pad="8" gate="G$1" pin="RS"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="Microchip" constant="no" name="Manufacturer_Name"/>
+      <attribute value="MCP2551-E/SN" constant="no" name="Manufacturer_Part_Number"/>
+      <attribute value="7707767P" constant="no" name="RS_Part_Number"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/7707767P" constant="no" name="RS_Price-Stock"/>
+      <attribute value="70046882" constant="no" name="Allied_Number"/>
+      <attribute value="http://www.alliedelec.com/microchip-technology-inc-mcp2551-e-sn/70046882/" constant="no" name="Allied_Price-Stock"/>
+      <attribute value="MCP2551-E/SN" constant="no" name="Arrow_Part_Number"/>
+      <attribute value="https://www.arrow.com/en/products/mcp2551-esn/microchip-technology" constant="no" name="Arrow_Price-Stock"/>
+      <attribute value="CAN Transceiver 1Mbit/s ISO 11898 Sleep, Standby-Mode 8pins SOIC" constant="no" name="Description"/>
+      <attribute value="1.75mm" constant="no" name="Height"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="MCP2551-I_P" prefix="IC">
+  <description>&lt;b>High Speed CAN Transceiver,MCP2551-I/P Microchip MCP2551-I/P, CAN Transceiver 1-channel ISO 11898, 8-Pin PDIP&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.mouser.com/ds/2/268/21667d-63675.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate symbol="MCP2551-I_P" name="G$1" y="0" x="0"/>
+  </gates>
+  <devices>
+   <device package="DIP794W56P254L945H432Q8N" name="">
+    <connects>
+     <connect pad="1" gate="G$1" pin="TXD"/>
+     <connect pad="2" gate="G$1" pin="VSS"/>
+     <connect pad="3" gate="G$1" pin="VDD"/>
+     <connect pad="4" gate="G$1" pin="RXD"/>
+     <connect pad="5" gate="G$1" pin="VREF"/>
+     <connect pad="6" gate="G$1" pin="CANL"/>
+     <connect pad="7" gate="G$1" pin="CANH"/>
+     <connect pad="8" gate="G$1" pin="RS"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="Microchip" constant="no" name="Manufacturer_Name"/>
+      <attribute value="MCP2551-I/P" constant="no" name="Manufacturer_Part_Number"/>
+      <attribute value="2509530181" constant="no" name="RS_Part_Number"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/2509530181" constant="no" name="RS_Price-Stock"/>
+      <attribute value="70045402" constant="no" name="Allied_Number"/>
+      <attribute value="http://www.alliedelec.com/microchip-technology-inc-mcp2551-i-p/70045402/" constant="no" name="Allied_Price-Stock"/>
+      <attribute value="MCP2551-I/P" constant="no" name="Arrow_Part_Number"/>
+      <attribute value="https://www.arrow.com/en/products/mcp2551-ip/microchip-technology" constant="no" name="Arrow_Price-Stock"/>
+      <attribute value="High Speed CAN Transceiver,MCP2551-I/P Microchip MCP2551-I/P, CAN Transceiver 1-channel ISO 11898, 8-Pin PDIP" constant="no" name="Description"/>
+      <attribute value="4.32mm" constant="no" name="Height"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="LM317TG" prefix="IC">
+  <description>&lt;b>LM317 Positive Voltage Regulator,1.5A ON Semiconductor LM317TG, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/LM317-D.PDF"> Datasheet &lt;/a></description>
+  <gates>
+   <gate symbol="LM317TG" name="G$1" y="0" x="0"/>
+  </gates>
+  <devices>
+   <device package="TO254P482X997X2018-3P" name="">
+    <connects>
+     <connect pad="1" gate="G$1" pin="ADJ"/>
+     <connect pad="2" gate="G$1" pin="VOUT"/>
+     <connect pad="3" gate="G$1" pin="VIN"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="ON Semiconductor" constant="no" name="Manufacturer_Name"/>
+      <attribute value="LM317TG" constant="no" name="Manufacturer_Part_Number"/>
+      <attribute value="2509201000" constant="no" name="RS_Part_Number"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/2509201000" constant="no" name="RS_Price-Stock"/>
+      <attribute value="70099596" constant="no" name="Allied_Number"/>
+      <attribute value="http://www.alliedelec.com/on-semiconductor-lm317tg/70099596/" constant="no" name="Allied_Price-Stock"/>
+      <attribute value="LM317TG" constant="no" name="Arrow_Part_Number"/>
+      <attribute value="http://www.arrow.com/en/products/lm317tg/on-semiconductor" constant="no" name="Arrow_Price-Stock"/>
+      <attribute value="LM317 Positive Voltage Regulator,1.5A ON Semiconductor LM317TG, Single Linear Voltage Regulator, 1.5A Adjustable 1.2  37 V, 3-Pin TO-220" constant="no" name="Description"/>
+      <attribute value="4.82mm" constant="no" name="Height"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
