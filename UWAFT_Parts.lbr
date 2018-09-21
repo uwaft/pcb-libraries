@@ -1,68 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="7.7.0">
 <drawing>
-<settings>
-<setting alwaysvectorfont="no"/>
-<setting verticaltext="up"/>
-</settings>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting verticaltext="up"/>
+ </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
-<layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
-<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
-</layers>
+ <layers>
+  <layer name="Top" number="1" color="4" visible="yes" fill="1" active="yes"/>
+  <layer name="Bottom" number="16" color="1" visible="yes" fill="1" active="yes"/>
+  <layer name="Pads" number="17" color="2" visible="yes" fill="1" active="yes"/>
+  <layer name="Vias" number="18" color="2" visible="yes" fill="1" active="yes"/>
+  <layer name="Unrouted" number="19" color="6" visible="yes" fill="1" active="yes"/>
+  <layer name="Dimension" number="20" color="24" visible="yes" fill="1" active="yes"/>
+  <layer name="tPlace" number="21" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="bPlace" number="22" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="tOrigins" number="23" color="15" visible="yes" fill="1" active="yes"/>
+  <layer name="bOrigins" number="24" color="15" visible="yes" fill="1" active="yes"/>
+  <layer name="tNames" number="25" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="bNames" number="26" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="tValues" number="27" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="bValues" number="28" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="tStop" number="29" color="7" visible="no" fill="3" active="yes"/>
+  <layer name="bStop" number="30" color="7" visible="no" fill="6" active="yes"/>
+  <layer name="tCream" number="31" color="7" visible="no" fill="4" active="yes"/>
+  <layer name="bCream" number="32" color="7" visible="no" fill="5" active="yes"/>
+  <layer name="tFinish" number="33" color="6" visible="no" fill="3" active="yes"/>
+  <layer name="bFinish" number="34" color="6" visible="no" fill="6" active="yes"/>
+  <layer name="tGlue" number="35" color="7" visible="no" fill="4" active="yes"/>
+  <layer name="bGlue" number="36" color="7" visible="no" fill="5" active="yes"/>
+  <layer name="tTest" number="37" color="7" visible="no" fill="1" active="yes"/>
+  <layer name="bTest" number="38" color="7" visible="no" fill="1" active="yes"/>
+  <layer name="tKeepout" number="39" color="4" visible="yes" fill="11" active="yes"/>
+  <layer name="bKeepout" number="40" color="1" visible="yes" fill="11" active="yes"/>
+  <layer name="tRestrict" number="41" color="4" visible="yes" fill="10" active="yes"/>
+  <layer name="bRestrict" number="42" color="1" visible="yes" fill="10" active="yes"/>
+  <layer name="vRestrict" number="43" color="2" visible="yes" fill="10" active="yes"/>
+  <layer name="Drills" number="44" color="7" visible="no" fill="1" active="yes"/>
+  <layer name="Holes" number="45" color="7" visible="no" fill="1" active="yes"/>
+  <layer name="Milling" number="46" color="3" visible="no" fill="1" active="yes"/>
+  <layer name="Measures" number="47" color="7" visible="no" fill="1" active="yes"/>
+  <layer name="Document" number="48" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="Reference" number="49" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="tDocu" number="51" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="bDocu" number="52" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="SimResults" number="88" color="9" visible="yes" fill="1" active="yes"/>
+  <layer name="SimProbes" number="89" color="9" visible="yes" fill="1" active="yes"/>
+  <layer name="Modules" number="90" color="5" visible="yes" fill="1" active="yes"/>
+  <layer name="Nets" number="91" color="2" visible="yes" fill="1" active="yes"/>
+  <layer name="Busses" number="92" color="1" visible="yes" fill="1" active="yes"/>
+  <layer name="Pins" number="93" color="2" visible="no" fill="1" active="yes"/>
+  <layer name="Symbols" number="94" color="4" visible="yes" fill="1" active="yes"/>
+  <layer name="Names" number="95" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="Values" number="96" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="Info" number="97" color="7" visible="yes" fill="1" active="yes"/>
+  <layer name="Guide" number="98" color="6" visible="yes" fill="1" active="yes"/>
+ </layers>
 <library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
+ <package name="SOIC127P600X175-8N">
+  <description>&lt;b>Narrow 3.90mm (SN) [SOIC]&lt;/b>&lt;br>&#xd;
+</description>
+  <smd name="1" y="1.905" dy="0.65" dx="1.5" rot="R0" x="-2.7" layer="1"/>
+  <smd name="2" y="0.635" dy="0.65" dx="1.5" rot="R0" x="-2.7" layer="1"/>
+  <smd name="3" y="-0.635" dy="0.65" dx="1.5" rot="R0" x="-2.7" layer="1"/>
+  <smd name="4" y="-1.905" dy="0.65" dx="1.5" rot="R0" x="-2.7" layer="1"/>
+  <smd name="5" y="-1.905" dy="0.65" dx="1.5" rot="R0" x="2.7" layer="1"/>
+  <smd name="6" y="-0.635" dy="0.65" dx="1.5" rot="R0" x="2.7" layer="1"/>
+  <smd name="7" y="0.635" dy="0.65" dx="1.5" rot="R0" x="2.7" layer="1"/>
+  <smd name="8" y="1.905" dy="0.65" dx="1.5" rot="R0" x="2.7" layer="1"/>
+  <text align="center" y="0" rot="R0" size="1.27" x="0" layer="25">>NAME</text>
+  <text align="center" y="0" rot="R0" size="1.27" x="0" layer="27">>VALUE</text>
+  <wire x1="-3.7" y2="2.7" y1="2.7" x2="3.7" width="0.05" layer="51"/>
+  <wire x1="3.7" y2="-2.7" y1="2.7" x2="3.7" width="0.05" layer="51"/>
+  <wire x1="3.7" y2="-2.7" y1="-2.7" x2="-3.7" width="0.05" layer="51"/>
+  <wire x1="-3.7" y2="2.7" y1="-2.7" x2="-3.7" width="0.05" layer="51"/>
+  <wire x1="-1.95" y2="2.45" y1="2.45" x2="1.95" width="0.1" layer="51"/>
+  <wire x1="1.95" y2="-2.45" y1="2.45" x2="1.95" width="0.1" layer="51"/>
+  <wire x1="1.95" y2="-2.45" y1="-2.45" x2="-1.95" width="0.1" layer="51"/>
+  <wire x1="-1.95" y2="2.45" y1="-2.45" x2="-1.95" width="0.1" layer="51"/>
+  <wire x1="-1.95" y2="2.45" y1="1.18" x2="-0.68" width="0.1" layer="51"/>
+  <wire x1="-1.6" y2="2.45" y1="2.45" x2="1.6" width="0.2" layer="21"/>
+  <wire x1="1.6" y2="-2.45" y1="2.45" x2="1.6" width="0.2" layer="21"/>
+  <wire x1="1.6" y2="-2.45" y1="-2.45" x2="-1.6" width="0.2" layer="21"/>
+  <wire x1="-1.6" y2="2.45" y1="-2.45" x2="-1.6" width="0.2" layer="21"/>
+  <wire x1="-3.45" y2="2.58" y1="2.58" x2="-1.95" width="0.2" layer="21"/>
+ </package>
+ <package name="DIP794W56P254L945H432Q8N">
+  <description>&lt;b>8-Lead PDIP 300mm&lt;/b>&lt;br>&#xd;
+</description>
+  <pad diameter="1.16" name="1" y="3.81" shape="square" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="2" y="1.27" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="3" y="-1.27" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="4" y="-3.81" drill="0.76" x="-3.97"/>
+  <pad diameter="1.16" name="5" y="-3.81" drill="0.76" x="3.97"/>
+  <pad diameter="1.16" name="6" y="-1.27" drill="0.76" x="3.97"/>
+  <pad diameter="1.16" name="7" y="1.27" drill="0.76" x="3.97"/>
+  <pad diameter="1.16" name="8" y="3.81" drill="0.76" x="3.97"/>
+  <text align="center" y="0" rot="R0" size="1.27" x="0" layer="25">>NAME</text>
+  <text align="center" y="0" rot="R0" size="1.27" x="0" layer="27">>VALUE</text>
+  <wire x1="-4.96" y2="5.13" y1="5.13" x2="4.96" width="0.05" layer="51"/>
+  <wire x1="4.96" y2="-5.13" y1="5.13" x2="4.96" width="0.05" layer="51"/>
+  <wire x1="4.96" y2="-5.13" y1="-5.13" x2="-4.96" width="0.05" layer="51"/>
+  <wire x1="-4.96" y2="5.13" y1="-5.13" x2="-4.96" width="0.05" layer="51"/>
+  <wire x1="-3.3" y2="4.88" y1="4.88" x2="3.3" width="0.1" layer="51"/>
+  <wire x1="3.3" y2="-4.88" y1="4.88" x2="3.3" width="0.1" layer="51"/>
+  <wire x1="3.3" y2="-4.88" y1="-4.88" x2="-3.3" width="0.1" layer="51"/>
+  <wire x1="-3.3" y2="4.88" y1="-4.88" x2="-3.3" width="0.1" layer="51"/>
+  <wire x1="-3.3" y2="4.88" y1="3.61" x2="-2.03" width="0.1" layer="51"/>
+  <wire x1="-4.55" y2="4.88" y1="4.88" x2="3.3" width="0.2" layer="21"/>
+  <wire x1="-3.3" y2="-4.88" y1="-4.88" x2="3.3" width="0.2" layer="21"/>
+ </package>
 </packages>
 <symbols>
+ <symbol name="MCP2551-E_SN">
+  <wire x1="5.08" y2="2.54" y1="2.54" x2="22.86" width="0.254" layer="94"/>
+  <wire x1="22.86" y2="2.54" y1="-10.16" x2="22.86" width="0.254" layer="94"/>
+  <wire x1="22.86" y2="-10.16" y1="-10.16" x2="5.08" width="0.254" layer="94"/>
+  <wire x1="5.08" y2="-10.16" y1="2.54" x2="5.08" width="0.254" layer="94"/>
+  <text align="center-left" y="7.62" size="1.778" x="24.13" layer="95">>NAME</text>
+  <text align="center-left" y="5.08" size="1.778" x="24.13" layer="96">>VALUE</text>
+  <pin length="middle" name="TXD" y="0" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="VSS" y="-2.54" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="VDD" y="-5.08" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="RXD" y="-7.62" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="RS" y="0" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANH" y="-2.54" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANL" y="-5.08" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="VREF" y="-7.62" rot="R180" direction="in" x="27.94"/>
+ </symbol>
+ <symbol name="MCP2551-I_P">
+  <wire x1="5.08" y2="2.54" y1="2.54" x2="22.86" width="0.254" layer="94"/>
+  <wire x1="22.86" y2="2.54" y1="-10.16" x2="22.86" width="0.254" layer="94"/>
+  <wire x1="22.86" y2="-10.16" y1="-10.16" x2="5.08" width="0.254" layer="94"/>
+  <wire x1="5.08" y2="-10.16" y1="2.54" x2="5.08" width="0.254" layer="94"/>
+  <text align="center-left" y="7.62" size="1.778" x="24.13" layer="95">>NAME</text>
+  <text align="center-left" y="5.08" size="1.778" x="24.13" layer="96">>VALUE</text>
+  <pin length="middle" name="TXD" y="0" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="VSS" y="-2.54" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="VDD" y="-5.08" rot="R0" direction="pwr" x="0"/>
+  <pin length="middle" name="RXD" y="-7.62" rot="R0" direction="io" x="0"/>
+  <pin length="middle" name="RS" y="0" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANH" y="-2.54" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="CANL" y="-5.08" rot="R180" direction="io" x="27.94"/>
+  <pin length="middle" name="VREF" y="-7.62" rot="R180" direction="in" x="27.94"/>
+ </symbol>
 </symbols>
 <devicesets>
+ <deviceset prefix="IC" name="MCP2551-E_SN">
+  <description>&lt;b>CAN Transceiver 1Mbit/s ISO 11898 Sleep, Standby-Mode 8pins SOIC&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://docs-europe.electrocomponents.com/webdocs/1169/0900766b811693da.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" symbol="MCP2551-E_SN" x="0"/>
+  </gates>
+  <devices>
+   <device name="" package="SOIC127P600X175-8N">
+    <connects>
+     <connect pad="1" pin="TXD" gate="G$1"/>
+     <connect pad="2" pin="VSS" gate="G$1"/>
+     <connect pad="3" pin="VDD" gate="G$1"/>
+     <connect pad="4" pin="RXD" gate="G$1"/>
+     <connect pad="5" pin="VREF" gate="G$1"/>
+     <connect pad="6" pin="CANL" gate="G$1"/>
+     <connect pad="7" pin="CANH" gate="G$1"/>
+     <connect pad="8" pin="RS" gate="G$1"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="Microchip" name="Manufacturer_Name" constant="no"/>
+      <attribute value="MCP2551-E/SN" name="Manufacturer_Part_Number" constant="no"/>
+      <attribute value="7707767P" name="RS_Part_Number" constant="no"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/7707767P" name="RS_Price-Stock" constant="no"/>
+      <attribute value="70046882" name="Allied_Number" constant="no"/>
+      <attribute value="http://www.alliedelec.com/microchip-technology-inc-mcp2551-e-sn/70046882/" name="Allied_Price-Stock" constant="no"/>
+      <attribute value="MCP2551-E/SN" name="Arrow_Part_Number" constant="no"/>
+      <attribute value="https://www.arrow.com/en/products/mcp2551-esn/microchip-technology" name="Arrow_Price-Stock" constant="no"/>
+      <attribute value="CAN Transceiver 1Mbit/s ISO 11898 Sleep, Standby-Mode 8pins SOIC" name="Description" constant="no"/>
+      <attribute value="1.75mm" name="Height" constant="no"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset prefix="IC" name="MCP2551-I_P">
+  <description>&lt;b>High Speed CAN Transceiver,MCP2551-I/P Microchip MCP2551-I/P, CAN Transceiver 1-channel ISO 11898, 8-Pin PDIP&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.mouser.com/ds/2/268/21667d-63675.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate name="G$1" y="0" symbol="MCP2551-I_P" x="0"/>
+  </gates>
+  <devices>
+   <device name="" package="DIP794W56P254L945H432Q8N">
+    <connects>
+     <connect pad="1" pin="TXD" gate="G$1"/>
+     <connect pad="2" pin="VSS" gate="G$1"/>
+     <connect pad="3" pin="VDD" gate="G$1"/>
+     <connect pad="4" pin="RXD" gate="G$1"/>
+     <connect pad="5" pin="VREF" gate="G$1"/>
+     <connect pad="6" pin="CANL" gate="G$1"/>
+     <connect pad="7" pin="CANH" gate="G$1"/>
+     <connect pad="8" pin="RS" gate="G$1"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute value="Microchip" name="Manufacturer_Name" constant="no"/>
+      <attribute value="MCP2551-I/P" name="Manufacturer_Part_Number" constant="no"/>
+      <attribute value="2509530181" name="RS_Part_Number" constant="no"/>
+      <attribute value="http://uk.rs-online.com/web/p/products/2509530181" name="RS_Price-Stock" constant="no"/>
+      <attribute value="70045402" name="Allied_Number" constant="no"/>
+      <attribute value="http://www.alliedelec.com/microchip-technology-inc-mcp2551-i-p/70045402/" name="Allied_Price-Stock" constant="no"/>
+      <attribute value="MCP2551-I/P" name="Arrow_Part_Number" constant="no"/>
+      <attribute value="https://www.arrow.com/en/products/mcp2551-ip/microchip-technology" name="Arrow_Price-Stock" constant="no"/>
+      <attribute value="High Speed CAN Transceiver,MCP2551-I/P Microchip MCP2551-I/P, CAN Transceiver 1-channel ISO 11898, 8-Pin PDIP" name="Description" constant="no"/>
+      <attribute value="4.32mm" name="Height" constant="no"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
 </devicesets>
 </library>
 </drawing>
